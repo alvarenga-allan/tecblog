@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    font-size: 1em;
+}
+/*layout*/
+
+
+header{
+    background-color: #ffee00;
+}
+
+#container{
+    width: 90%;
+    margin:auto;
+    min-height: 500px;
+    background-color: rgb(192, 189, 184);
+}
+
+#banner, #menu{
+    padding: 10px;
+    text-align: center;
+}
+/*Formação do menu*/
+nav a{
+    text-decoration: none;
+    padding:8px 12px;
+}
+
+a:link, a:visited{
+    color:white
+}
+
+a:hover{
+    color:#ffee00;
+    background-color: white;
+}
+/*Formatações em geral*/
+
+h1{
+font-size: 2em;
+
+}
+
+.white{
+    color: white;
+}
