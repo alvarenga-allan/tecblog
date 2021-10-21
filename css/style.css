@@ -6,19 +6,22 @@
 
 body{
     font-size: 1em;
+    background-color: #ebe7e7;
+    
 }
 /*layout*/
 
 
 header{
-    background-color: #ffee00;
+    background-color: #ffbb00;
+    
 }
 
 #container{
-    width: 90%;
+    width: 100%;
     margin:auto;
     min-height: 500px;
-    background-color: rgb(192, 189, 184);
+   
 }
 
 #banner, #menu{
@@ -36,7 +39,7 @@ a:link, a:visited{
 }
 
 a:hover{
-    color:#ffee00;
+    color:#ffbb00;
     background-color: white;
 }
 /*Formatações em geral*/
@@ -48,4 +51,92 @@ font-size: 2em;
 
 .white{
     color: white;
+    margin:auto;
 }
+
+main{
+    width:70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#postagens{
+    width:700px;
+    background-color:rgb(255, 166, 0);
+   float: left;
+}
+aside{
+    width: 20%;
+    background-color: white;
+    float: right;
+    padding:10px;
+    margin-bottom: 20px;
+    
+}
+footer{
+    clear:both;
+    text-align: center;
+    padding: 15px;
+    width: 920px;
+    margin: 0 auto;
+    background-color: #ebe7e7;
+}
+article{
+    background-color: white;
+    padding:10px;
+    
+}
+
+article>h2{
+    color:rgb(255, 166, 0);
+}
+
+article>a:link, article>a:visited{
+color:rgb(255, 166, 0);
+padding: 8px 12 px;
+text-decoration: none;
+
+}
+img{
+    width: 550px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:solid;
+    border-width: 1px;
+  }
+  .postagem-lateral>hr{
+    
+    border-width: 1px;
+    color:#ccc
+  }
+
+  h3{
+      color: #565656;
+      background-color:#ebe7e7;
+      padding: 5px;
+  }
+  .postagem-lateral p{
+font-size: 0.8em;
+padding:10px;
+  }
+
+ .postagem-lateral>a:link, .postagem-lateral>a:visited{
+    color:rgb(255, 166, 0);
+    padding: 8px 12 px;
+    text-decoration: none;
+    font-size: 0.7em;
+ }
+
+ .conteudo-lateral>a:link, .conteudo-lateral>a:visited{
+    color:rgb(255, 166, 0);
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 0.8em;
+    display:block;
+ }
